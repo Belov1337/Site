@@ -1,4 +1,60 @@
 header {
-  color: #f00;
+  color: black;
+}
+
+body {
+  font: 130% Helvetica, sans-serif;
+  color: black;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 150px;
+  width: 100px;
+  text-decoration: none;
+}
+
+.service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-wrapper {
+  background-color: #f5f5f5;
+}
+
+.service__item {
+  text-align: center;
+}
+
+.service__img {
+  margin-bottom: 50px;
+}
+
+.service__text {
+  color: #1c1c1c;
+  line-height: 1.375;
+}
+
+.service__text_bold {
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
